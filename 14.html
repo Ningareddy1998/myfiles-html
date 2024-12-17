@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+<form action="action_php.page" method="POST">
+
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Ningareddy" minlength="6" maxlength="12" required >
+   </div>
+    <br>
+    <div>
+        <label for="lastname">LastName:</label>
+        <input type="text" id="lastname" placeholder="Bheemannagari" minlength="6" maxlength="12" required >
+    </div>
+    <br>
+    <div>
+        <label for="Pass">Password:</label>
+        <input type="password" id="pass" name="pass" placeholder="Ninga1234#" minlength="6" maxlength="12" required >
+    </div>
+    <br>
+    <div>
+        <label for="emailid">Email id:</label>
+        <input type="email" id="emailid" name="pass" placeholder="ningareddy987@gamil.com" minlength="6" maxlength="14" required >
+    </div>
+    <br>
+    <div>
+        <label for="telephone">Phone:</label>
+        <input type="tel" id="telephone" name="phone" placeholder="+91 1234567890"  maxlength="14" required >
+    </div>
+    <br>
+    <div>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required >
+    </div>
+    <br>
+    <div>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity"  min="0" max="99" required >
+    </div>
+    <br>
+    <div>
+        <label for="title">Gender:</label>
+        <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." name="title" value="Mr.">
+        <label for="Mr.s">Mr.s</label>
+            <input type="radio" id="Mr.s" name="title" value="Mr.s">
+        <label for="Other">Other</label>
+            <input type="radio" id="Other" name="title" value="Other">
+    </div>
+    <br>
+    <div>
+        <label For="Payment">Payment</label>
+        <select id="Payment" name="Payment">
+            <option value="Mastercard">Mastercard</option>
+            <option value="Visacard">Visacard</option>
+            <option value="Giftcard">Giftcard</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="Terms and conditions">Terms and conditions</label>
+        <input type="checkbox" id="Term and conditions" name="Terms and conditions"></>
+    </div>
+    <br>
+    <div>
+       <input  type="reset">
+    </div>
+    <br>
+    <div>
+       <input type="submit">
+     </div>
+</form>
+</body>
+</html>
